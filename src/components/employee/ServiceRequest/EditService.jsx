@@ -42,7 +42,7 @@ const EditService = ({
     const abortController = new AbortController();
     const signal = abortController.signal;
     const url =
-      "http://localhost:4050/api/employeedashboard/servicerequest";
+      "https://devvishal-crm-backend.herokuapp.com/api/employeedashboard/servicerequest";
     const getResult = async () => {
       const token = localStorage.getItem("token");
       axios({
@@ -84,7 +84,7 @@ const EditService = ({
     };
     axios
       .put(
-        `http://localhost:4050/api/employeedashboard/servicerequest/${id}`,
+        `https://devvishal-crm-backend.herokuapp.com/api/employeedashboard/servicerequest/${id}`,
         request
       )
       .then((res) => {

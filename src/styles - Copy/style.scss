@@ -10,7 +10,7 @@ $hoverbg: #272727;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Mulish", sans-serif;
+  font-family: "ui-sans-serif", sans-serif;
   scroll-behavior: smooth;
 }
 body {
@@ -60,8 +60,8 @@ body ::-webkit-scrollbar-thumb:hover {
   width: $width;
   margin: auto;
 }
-@mixin mulishStyle($color, $size, $weight) {
-  font-family: "Mulish";
+@mixin ui-sans-serifStyle($color, $size, $weight) {
+  font-family: "ui-sans-serif";
   letter-spacing: 0.2;
   font-weight: $weight;
   color: $color;
@@ -127,7 +127,7 @@ body ::-webkit-scrollbar-thumb:hover {
       .navlist-container {
         @include displayFlex(space-evenly);
         a {
-          @include mulishStyle($secondarycolor, 1rem, bold);
+          @include ui-sans-serifStyle($secondarycolor, 1rem, bold);
           @include padding(1rem, 1rem, 1.5rem, 1.5rem);
         }
       }
@@ -146,12 +146,12 @@ body ::-webkit-scrollbar-thumb:hover {
     flex-direction: column;
     text-align: center;
     div.headliner {
-      @include mulishStyle($secondarycolor, 2rem, bold);
+      @include ui-sans-serifStyle($secondarycolor, 2rem, bold);
       text-transform: uppercase;
       margin: 2rem auto;
     }
     button {
-      @include mulishStyle($emtxt, 1rem, bold);
+      @include ui-sans-serifStyle($emtxt, 1rem, bold);
       @include buttonStyle($primarycolor);
     }
   }
@@ -160,7 +160,7 @@ body ::-webkit-scrollbar-thumb:hover {
     flex-direction: column;
     margin-bottom: 100px;
     div.headliner {
-      @include mulishStyle($primarycolor, 2rem, bold);
+      @include ui-sans-serifStyle($primarycolor, 2rem, bold);
       text-transform: uppercase;
       margin: 5rem auto;
     }
@@ -203,7 +203,7 @@ body ::-webkit-scrollbar-thumb:hover {
     div.login {
       @include marginauto(40%);
       div.headliner {
-        @include mulishStyle($secondarycolor, 2rem, bold);
+        @include ui-sans-serifStyle($secondarycolor, 2rem, bold);
         text-transform: uppercase;
         margin: 2rem auto;
       }
@@ -215,7 +215,7 @@ body ::-webkit-scrollbar-thumb:hover {
         margin: 0.4rem;
         width: 100%;
         // color: $primarycolor;
-        @include mulishStyle($primarycolor, 1.2rem, 500);
+        @include ui-sans-serifStyle($primarycolor, 1.2rem, 500);
         &:focus {
           outline: none;
           background-color: rgba(0, 0, 0, 0) !important;
@@ -240,7 +240,7 @@ body ::-webkit-scrollbar-thumb:hover {
 
   button {
     left: 50%;
-    @include mulishStyle($background, 1.2rem, bold);
+    @include ui-sans-serifStyle($background, 1.2rem, bold);
     @include buttonStyle($secondarycolor);
     margin: 2rem auto;
   }
@@ -284,7 +284,7 @@ body ::-webkit-scrollbar-thumb:hover {
           @include padding(1rem, 1.5rem, 2rem, 1rem);
           a.nav-items {
             width: 100%;
-            @include mulishStyle($primarycolor, 1.2rem, 600);
+            @include ui-sans-serifStyle($primarycolor, 1.2rem, 600);
             transition: all 0.2s ease-in;
             cursor: pointer;
           }
@@ -308,11 +308,11 @@ body ::-webkit-scrollbar-thumb:hover {
       @include displayFlex(space-between);
       z-index: 2;
       .title {
-        @include mulishStyle($secondarycolor, 2.5rem, bold);
+        @include ui-sans-serifStyle($secondarycolor, 2.5rem, bold);
       }
       button {
         @include smallButtonStyle($secondarycolor);
-        @include mulishStyle($background, 1rem, 900);
+        @include ui-sans-serifStyle($background, 1rem, 900);
         @include displayFlex(space-between);
         text-transform: uppercase;
         i {
@@ -330,7 +330,7 @@ body ::-webkit-scrollbar-thumb:hover {
     }
     .content {
       margin-top: 10px;
-      @include mulishStyle($primarycolor, 1.1rem, 500);
+      @include ui-sans-serifStyle($primarycolor, 1.1rem, 500);
       height: 83vh;
       overflow-y: scroll;
       .add-form {
@@ -346,7 +346,7 @@ body ::-webkit-scrollbar-thumb:hover {
           padding: 0.75rem 0rem;
           margin: 0.4rem;
           width: 100%;
-          @include mulishStyle($primarycolor, 1.1rem, 500);
+          @include ui-sans-serifStyle($primarycolor, 1.1rem, 500);
           &:focus {
             outline: none;
             background-color: rgba(0, 0, 0, 0) !important;
@@ -372,7 +372,7 @@ body ::-webkit-scrollbar-thumb:hover {
           padding-bottom: 30px;
           button {
             @include smallButtonStyle($secondarycolor);
-            @include mulishStyle($background, 1rem, 900);
+            @include ui-sans-serifStyle($background, 1rem, 900);
             @include displayFlex(space-between);
             text-transform: uppercase;
             i {
@@ -391,11 +391,11 @@ body ::-webkit-scrollbar-thumb:hover {
             padding: 0.4rem 1rem;
             @include displayFlex(space-between);
             b {
-              @include mulishStyle($primarycolor, 1.1rem, 800);
+              @include ui-sans-serifStyle($primarycolor, 1.1rem, 800);
               width: 50%;
             }
             p {
-              @include mulishStyle($secondarycolor, 1.1rem, 500);
+              @include ui-sans-serifStyle($secondarycolor, 1.1rem, 500);
               width: 50%;
             }
             input,
@@ -406,7 +406,7 @@ body ::-webkit-scrollbar-thumb:hover {
               padding: 0.75rem 0rem;
               margin: 0.4rem;
               width: 100%;
-              @include mulishStyle($primarycolor, 1.1rem, 500);
+              @include ui-sans-serifStyle($primarycolor, 1.1rem, 500);
               &:focus {
                 outline: none;
                 background-color: rgba(0, 0, 0, 0) !important;
@@ -434,7 +434,7 @@ body ::-webkit-scrollbar-thumb:hover {
           padding-bottom: 30px;
           button {
             @include smallButtonStyle($secondarycolor);
-            @include mulishStyle($background, 1rem, 900);
+            @include ui-sans-serifStyle($background, 1rem, 900);
             @include displayFlex(space-between);
             text-transform: uppercase;
             i {
@@ -452,7 +452,7 @@ body ::-webkit-scrollbar-thumb:hover {
           padding: 1rem 1rem;
           @include displayFlex(space-between);
           p {
-            @include mulishStyle($primarycolor, 1.1rem, 500);
+            @include ui-sans-serifStyle($primarycolor, 1.1rem, 500);
           }
           i {
             color: $secondarycolor;

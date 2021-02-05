@@ -3,7 +3,7 @@
             box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: "Mulish", sans-serif;
+    font-family: "ui-sans-serif", sans-serif;
     scroll-behavior: smooth;
   }
   .vh{
@@ -140,7 +140,7 @@
   }
   
   .landing-page .navbar-container nav .navlist-container a {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: bold;
     color: #f1af1c;
@@ -189,7 +189,7 @@
   }
   
   .landing-page .headliner-container div.headliner {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: bold;
     color: #f1af1c;
@@ -200,7 +200,7 @@
   /* #f1af1c */
   
   .landing-page .headliner-container button {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.87);
@@ -245,7 +245,7 @@
   }
   
   .landing-page .login-cards div.headliner {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: bold;
     color: #897eff;
@@ -344,7 +344,7 @@
   }
   
   .login-container .flexbox div.login div.headliner {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: bold;
     color: #f1af1c;
@@ -365,7 +365,7 @@
     padding: 10px;
     margin: 0.4rem;
     width: 100%;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 500;
     color: #897eff;
@@ -396,7 +396,7 @@
   
   .login-container button {
     left: 50%;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: bold;
     color: #212121;
@@ -492,7 +492,7 @@
   
   .dashboard .sidebar .nav ul li a.nav-items {
     width: 100%;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 600;
     color: white;
@@ -531,7 +531,7 @@
   }
   
   .dashboard .main-content .header .title {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: bold;
     color: #f1af1c;
@@ -550,7 +550,7 @@
     text-transform: uppercase;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 900;
     color: #212121;
@@ -590,7 +590,7 @@
   
   .dashboard .main-content .content {
     margin-top: 10px;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 500;
     color: #897eff;
@@ -616,7 +616,7 @@
     padding: 0.75rem 0rem;
     margin: 0.4rem;
     width: 100%;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 500;
     color: #897eff;
@@ -672,7 +672,7 @@
     text-transform: uppercase;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 900;
     color: #212121;
@@ -726,7 +726,7 @@
   }
   
   .dashboard .main-content .content .cards ul li b {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 800;
     color: #897eff;
@@ -735,7 +735,7 @@
   }
   
   .dashboard .main-content .content .cards ul li p {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 500;
     color: #f1af1c;
@@ -751,7 +751,7 @@
     padding: 0.75rem 0rem;
     margin: 0.4rem;
     width: 100%;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 500;
     color: #897eff;
@@ -807,7 +807,7 @@
     text-transform: uppercase;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 900;
     color: #212121;
@@ -858,7 +858,7 @@
   }
   
   .dashboard .main-content .content ul li p {
-    font-family: "Mulish";
+    font-family: "ui-sans-serif";
     letter-spacing: 0.2;
     font-weight: 500;
     color: #897eff;

@@ -46,7 +46,7 @@ const EditService = () => {
     };
     axios
       .put(
-        `http://localhost:4050/api/admindashboard/servicerequest/${id}`,
+        `https://devvishal-crm-backend.herokuapp.com/api/admindashboard/servicerequest/${id}`,
         response
       )
       .then((res) => {

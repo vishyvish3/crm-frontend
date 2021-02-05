@@ -39,7 +39,7 @@ const EditLead = () => {
     };
     axios
       .put(
-        `http://localhost:4050/api/admindashboard/lead/${id}`,
+        `https://devvishal-crm-backend.herokuapp.com/api/admindashboard/lead/${id}`,
         response
       )
       .then((res) => {

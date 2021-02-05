@@ -21,7 +21,7 @@ const AddForm = () => {
   const failedNotify = (message) => toast.error(message);
 
   const url =
-    "http://localhost:4050/api/admindashboard/contact";
+    "https://devvishal-crm-backend.herokuapp.com/api/admindashboard/contact";
 
   const addContact = (e) => {
     setIsLoading(true);
